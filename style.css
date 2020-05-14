@@ -6,6 +6,7 @@ body {
     color: #FFFF;
 }
 header {
+    position: fixed;
     top: 0px;
     left: 0px;
     width: 100%;
@@ -13,6 +14,7 @@ header {
     background: #1C1C1C 0% 0% no-repeat padding-box;
     display:block;
     box-sizing: border-box;
+    z-index: 99999;
    }
 #logo1 {
     position:fixed;
@@ -37,12 +39,14 @@ li {
     opacity: 0.69;
 }
 .pirmas {
-    position: fixed;
+    position: absolute;
     top: 72px;
     left: 0px;
-    width: 100%;
+    width: 1500px;
     height: 639px;
-    background: url(city.jpg);
+    background: url(city.jpg) 0% 0% no-repeat padding-box;
+    background-color: #1C1C1C;
+    background-size: cover;
 }
 #logo2 {
     position: absolute;
@@ -85,4 +89,54 @@ button {
     border: 2px solid #FFFFFF;
     color: white;
     background-color:transparent;
+}
+
+
+
+
+footer {
+    position: absolute;
+    top: 4646px;
+    left: 0px;
+    width: 100%;
+    height: 124px;
+    background: #1C1C1C 0% 0% no-repeat padding-box;
+}
+.input1 
+{
+    top: 147px;
+    left: 892px;
+    width: 360px;
+    height: 425px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 20px #00000029;
+    position: absolute;
+    color: #000;
+}
+span {
+    color: #E27866;
+}
+#input-box {
+    position: relative;
+    background-color:  #00000029;
+    width: 100%;
+}
+
+
+
+
+
+
+#facebook,#instagram,#twitter,#pinterest,#wifi {
+    display: inline-block;
+    height:20px;
+    top: 4698px;
+    left: 147px;
+    margin: 50px 50px
+}
+.c {
+    position:absolute;
+    display: inline-block;
+    margin: 50px 200px;
+    opacity: 0.63;
 }
